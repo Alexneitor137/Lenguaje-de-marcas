@@ -1,0 +1,84 @@
+@font-face{
+    font-family:"ajo";
+    src: url("ComicNeueSansID.ttf");
+}
+html{
+    background-color: palevioletred;
+    font-family: ajo;
+}
+body{
+    color: aquamarine;
+    font-size: xx-large;
+
+}
+li{
+    color: green;
+    display: inline-block;
+    font-size: xx-small;
+}
+img{
+    display: flex;
+}
+header,main,footer{
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+}
+nav ul{
+    list-style-type: none; /*Anula los estilos de la lista*/
+    margin: 0; /*Anula el margen exterior*/
+    padding: 0px; /*Anula el margen interior*/
+    display: flex; /*Activa flex de izquierda a derecha*/
+    gap: 1px; /*Distancia entre los elementos flexbox o grip*/
+    justify-content: center; /*Centrar los elementos del menu*/
+}
+nav ul li{
+    text-decoration: none; /*Anula los estilos de subrayado*/
+    color: inherit; /*Le pone el color que deberia tener*/
+    color: white;
+    background: rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 10px;
+    text-transform: uppercase;
+    display: block;
+    width: 60px;
+    text-align: center;
+}
+#inicio img{
+    width: 100%;
+}
+.bloque{
+    display: flex;
+    gap: 20px;
+}
+.bloque img{
+    flex: 1;
+    width: 50%;
+    height: 50%;
+}
+.bloque p{
+    flex: 1;
+    font-size: 10px;
+    text-align: justify;
+}
+#Desarrollo .bloque{
+    flex-direction: row-reverse;
+}
+#contenedorportafolio{
+    display:grid;         /* Este elemento es una rejilla */
+    grid-template-columns:auto auto auto; /* Y tiene tres columnas */
+    gap:20px;             /* Separación entre los elementos */
+}
+#contenedorportafolio img{
+    width:100%;           /* Quiero que la imagen no desborde */
+}     
+iframe{
+    flex: 1;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
