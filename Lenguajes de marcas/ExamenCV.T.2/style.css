@@ -1,0 +1,46 @@
+/*Coloco el estilo general del documento, siendo en este caso, el color del fondo, la fuente de la letra, y el tamaño de estas*/
+html{
+    background: black;
+    font-family: sans-serif;
+    font-size: 11px;
+}
+/*Modifico el ancho del body, le aplico un fondo blanco y entonces le aplico un margen que se designa en auto y un flex*/
+body{
+    width: 400px;
+    background: white;
+    margin: auto;
+    display: flex;
+}
+/*designo el maximo de ancho de la imagen para que se ajuste a donde la hemos puesto*/
+#izquierda img{
+    width: 100%;
+}
+/*Este es el section al que le hemos puesto la id Izquierda previamente*/
+/*Le aplicamos un tamaño de flex de 3, junto con un padding de 20 pixeles y que el texto en esta seccion se alinee a la izquierda*/
+#izquierda{
+    flex: 3;
+    background-color: rgb(151, 151, 151);
+    padding: 20px;
+    text-align: left;
+}
+/*Esta es la otra seccion a la que le aplicamos la id, gracias a lo cual hemos podido modificar ambos section sin que se alteren el uno al otro, ademas de los que no tienen identificador*/
+/*Le aplicamos un tamaño de flex de 5 junto con un padding de 20 pixeles*/
+#derecha{
+    flex: 5;
+    padding: 20px;
+}
+/*Esta seccion representa a los articulos dentro del section previamente identificado como derecha*/
+/*Aplicamos flex, alineamos al centro, aplicamos un gap de 20 px entre los objetos, ademas de aplican un margen y un padding de 0px para reiniciarlos*/
+#derecha article{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+/*En este caso igual que en la anterior seccion de codigo, esta representa a los ul, dentro de los articulos, dentro de la seccion identificada como izquierda*/
+/*Elimino el estilo de la lista para que no salga la puntuacion en los li y quito el padding por defecto para que la lista empiece justo debajo del título */
+#izquierda article ul {
+    list-style-type: none;
+    padding-left: 0; 
+}
