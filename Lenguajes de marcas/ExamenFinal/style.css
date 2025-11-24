@@ -1,0 +1,31 @@
+html{
+    color: black;
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    width:400px;
+    background: white;
+    margin: auto;
+    padding: auto;
+    display: flex;
+}
+
+img{
+    width: 100%;
+}
+#contenedorportafolio{
+    display:grid;         /* Este elemento es una rejilla */
+    grid-template-columns:auto auto auto; /* Y tiene tres columnas */
+    gap:10px;             /* Separación entre los elementos */
+}
+li{
+    color: white;
+    background: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+    display: block;
+    width: 60px;
+    text-align: center;
+}
