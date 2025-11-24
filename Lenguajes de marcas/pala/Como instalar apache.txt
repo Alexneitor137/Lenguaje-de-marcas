@@ -1,0 +1,20 @@
+En terminal:
+
+sudo apt install apache2
+
+De ahi en adelante, todos los archivos que hagáis tendrán que estar en:
+/var/www/html
+
+Liberación de permisos:
+
+cd /var/www
+cd = change directory (Windows/Linux/Mac)
+sudo chdmod 777 -R html
+
+sudo = El super usuario va a hacer algo
+chmod = cambiamos los permisos de archivos y carpetas
+777 = Los tres grupos pueden hacer de todos
+-R = recursivo (se aplica a todo el contenido)
+html = la carpeta de destino
+
+sudo apt install php
