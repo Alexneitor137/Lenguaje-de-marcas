@@ -1,5 +1,5 @@
 # En el shell (terminal):
-# ECHO 'export NOMBRE="jOSE VICENTE" >> ~/.bashrc
+# ECHO 'export CONTRASEÑA_CEAC="CEAC123$" >> ~/.bashrc
 # source ~/.bashrc
 import os
 
