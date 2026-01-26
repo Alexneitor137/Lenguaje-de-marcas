@@ -11,4 +11,13 @@ Dos de recepcion
 y
 Uno de envio
 
+Recepcion:
 POP3 = Descarga correo a tu ordenador, y lo borra del servidor
+-Eficiente con el servidor, pero produce desincronizaciones
+
+IMAP = Descarga correo a tu ordenador, pero se queda una copia en el servidor
+-No es eficiente, pero permite sincronizar
+
+Envio:
+SMTP = Send Mail Transport Protocol
+Protocolo de envio de correo electronico
