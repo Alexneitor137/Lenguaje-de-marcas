@@ -8,3 +8,7 @@ Empezar a enumerar, en texto, las "pantallas"
 que tendrá vuestra aplicación (top-down)
 
 Y los archivos que harán falta para ello
+
+Texto: La carta a los reyes magos
+
+Una aplicacion, cuya funcion sea pedir citas para un centro medico
